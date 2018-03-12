@@ -5,16 +5,30 @@
 
 # radiansd
 
-> Software for controlling the LED used in Lumen, a device that is part of the
-  Sensum project.
+> A daemon which provides a D-Bus interface for interaction with the LDCF
+  (Lumen Display Controller Firmware).
 
 _This document is also available in the following languages:
 [Português (Brasil)](README.pt-br.md)._
 
-## About
+## Requirements
 
-This repository will store the source code of radiansd as soon as it is ready to
-be released.
+* [python-daemon](https://pypi.python.org/pypi/python-daemon/)  
+  _Library to implement a well-behaved Unix daemon process._
+
+* [argparse](https://pypi.python.org/pypi/argparse/)  
+  _Python command-line parsing library._
+
+* [pyserial](https://pypi.python.org/pypi/pyserial)  
+  _Python serial port extension._
+
+* [pydbus](https://pypi.python.org/pypi/pydbus)  
+  _Pythonic D-Bus library._
+
+* [python3-gi](https://packages.debian.org/stretch/python3-gi)  
+  _Python 3 bindings for gobject-introspection libraries._  
+  **NOT** included in _requirements.txt_. Must be installed with apt (e.g. 
+  `apt install python3-gi`).
 
 ## License
 
