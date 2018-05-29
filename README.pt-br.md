@@ -1,4 +1,10 @@
 <p align="center">
+  <b>Importante:</b> este projeto foi movido para <a href="https://github.com/radialle-sensum/radiansd">github.com/radialle-sensum/radiansd</a>. Este repositório está depreciado.
+</p>
+
+<hr>
+
+<p align="center">
   <img src="https://avatars2.githubusercontent.com/u/31752856"
        alt="" width="200" />
 </p>
